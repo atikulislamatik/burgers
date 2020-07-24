@@ -64,7 +64,8 @@
     </section> -->
     <!-- Slider End -->
 
-    <model-viewer src="Hamburger.gltf" alt="A 3D model of an astronaut" camera-controls auto-rotate ar-src="Hamburger.usdz"
+    <model-viewer src="Hamburger.gltf" alt="3dmo" 
+    camera-controls auto-rotate ar shadow-intensity="1" 
         ios-src="Hamburger.usdz">
     </model-viewer>
     <!-- jQuery Min JS -->
@@ -78,9 +79,10 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
-    </script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
     <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+    <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+    <script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObserver.js"></script>
 
     </script>
 </body>
